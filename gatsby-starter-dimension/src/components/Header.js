@@ -31,16 +31,16 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Projects
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('about')
+              props.onOpenArticle('cp')
             }}
           >
-            About
+            Programming
           </button>
         </li>
         <li>

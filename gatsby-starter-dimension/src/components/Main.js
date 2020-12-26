@@ -2,7 +2,6 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
   render() {
@@ -37,6 +36,25 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
+        <article
+          id="cp"
+          className={`${this.props.article === 'cp' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Programming</h2>
+          <span className="image main">
+          <img src={pic02} alt="" />
+          </span>
+          <p>
+            <h3><a href="https://www.codechef.com/users/khushishikhu">Codechef</a></h3>
+            <h3><a href="https://codeforces.com/profile/khushi_gautam">Codeforces</a></h3>
+            <h3><a href="https://leetcode.com/khushishikhu/">Leetcode</a></h3>
+
+          </p>
+          {close}
+        </article>
 
         <article
           id="work"
@@ -45,47 +63,17 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Projects</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            <h4><a href="https://github.com/khushishikhu/worldranks">World Ranks</a></h4>
+            This project is based on world ranks.
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
-          {close}
-        </article>
-
-        <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            <h4><a href="https://github.com/khushishikhu/periodo">Periodo</a></h4>
+            It's a period tracking web app for the young girls.
           </p>
           {close}
         </article>
@@ -98,55 +86,23 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
+          <p>
+            Thank you!!
+            <p>
+              you can mail me at dpskhu13108@gmail.com and check my profile.
+            </p>
+          </p>
           <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
+            <p>
+              <a href="https://www.instagram.com/_khushishikhu_/">
+                <span className="label">Linkdin</span>
               </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
+            </p>
+            <p>
+              <a href="https://github.com/khushishikhu">
                 <span className="label">GitHub</span>
               </a>
-            </li>
+            </p>
           </ul>
           {close}
         </article>
