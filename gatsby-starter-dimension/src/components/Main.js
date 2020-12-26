@@ -94,7 +94,7 @@ class Main extends React.Component {
           </p>
           <ul className="icons">
             <p>
-              <a href="https://www.instagram.com/_khushishikhu_/">
+              <a href="https://www.linkedin.com/in/khushi-gautam-7708b4191/">
                 <span className="label">Linkdin</span>
               </a>
             </p>
