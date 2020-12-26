@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
+import Resume from "../images/Resume.pdf"
 
 class Main extends React.Component {
   render() {
@@ -36,6 +37,7 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
+
         <article
           id="cp"
           className={`${this.props.article === 'cp' ? 'active' : ''} ${
@@ -74,6 +76,19 @@ class Main extends React.Component {
           <p>
             <h4><a href="https://github.com/khushishikhu/periodo">Periodo</a></h4>
             It's a period tracking web app for the young girls.
+          </p>
+          {close}
+        </article>
+        <article
+          id="resume"
+          className={`${this.props.article === 'resume' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Resume</h2>
+          <p>
+             <a href={Resume} download>Download my Resume</a>
           </p>
           {close}
         </article>
