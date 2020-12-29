@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import pic02 from '../images/pic02.png'
 import Resume from "../images/Resume.pdf"
+import Web from "../images/Web.jpg"
 
 class Main extends React.Component {
   render() {
@@ -80,6 +81,31 @@ class Main extends React.Component {
           {close}
         </article>
         <article
+          id="skills"
+          className={`${this.props.article === 'skills' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Skills</h2>
+          <span className="image main">
+            <img src={Web} alt="" />
+          </span>
+          <p>
+             <li>
+               Web Development -(Html,Css,javascript)
+             </li>
+             <li>React</li>
+             <li>Nextjs</li>
+             <li>Mongodb</li>
+             <li>Postgresql</li>
+             <li>Django</li>
+             <li>Python</li>
+          </p>
+          {close}
+        </article>
+
+        <article
           id="resume"
           className={`${this.props.article === 'resume' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -96,31 +122,30 @@ class Main extends React.Component {
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
+            this.props.articleTimeout ? 'timeout' : 'https://mail.google.com/mail/u/0/#inbox?compose=new'
           }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <p>
-            Thank you!!
-            <p>
-              you can mail me at dpskhu13108@gmail.com and check my profile.
-            </p>
-          </p>
+          <p>you can email me at dpskhu13108@gmail.com</p>
           <ul className="icons">
-            <p>
-              <a href="https://www.linkedin.com/in/khushi-gautam-7708b4191/">
-                <span className="label">Linkdin</span>
+            <li>
+              <a href="https://www.linkedin.com/in/khushi-gautam-7708b4191/" className="icon fa-linkedin">
+                <span className="label">Linkedin</span>
               </a>
-            </p>
-            <p>
-              <a href="https://github.com/khushishikhu">
+            </li>
+            <li>
+              <a
+                href="https://github.com/khushishikhu"
+                className="icon fa-github"
+              >
                 <span className="label">GitHub</span>
               </a>
-            </p>
+            </li>
           </ul>
           {close}
         </article>
+
       </div>
     )
   }
