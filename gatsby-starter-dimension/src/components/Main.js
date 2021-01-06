@@ -78,6 +78,10 @@ class Main extends React.Component {
             <h4><a href="https://github.com/khushishikhu/periodo">Periodo</a></h4>
             It's a period tracking web app for the young girls.
           </p>
+          <p>
+            <h4><a href="https://github.com/khushishikhu/worldranks">Ing-Square</a></h4>
+            It is an app for detecting the awareness in the online classroom as whether the students are attentive the whole time or not by uploading the recorded video of the class at the website.
+          </p>
           {close}
         </article>
         <article
