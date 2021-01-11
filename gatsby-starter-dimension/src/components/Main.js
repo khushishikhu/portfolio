@@ -71,11 +71,18 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
+          <p>
+            <h4><a href="https://github.com/khushishikhu/Boardgame">Jigdise</a></h4>
+            <p>website:<a href="https://jigdise.vercel.app/">Jigdise</a></p>
+            This is a multiplayer board game app which is a virtual verion of English Poker game Yahtzee.
+          </p>
             <h4><a href="https://github.com/khushishikhu/worldranks">World Ranks</a></h4>
+            <p>website:<a href="https://worldranks.khushishikhu.vercel.app/">World Ranks</a></p>
             This project is based on world ranks.
           </p>
           <p>
             <h4><a href="https://github.com/khushishikhu/periodo">Periodo</a></h4>
+            <p>website:<a href="https://periodo.khushishikhu.vercel.app/">Periodo</a></p>
             It's a period tracking web app for the young girls.
           </p>
           <p>
