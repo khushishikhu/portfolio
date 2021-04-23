@@ -34,7 +34,9 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            I am a sophomore student pursuing B.Tech in Computer Science and Engineering from <u> Harcourt Butler Technical University</u>. I have a keen interest in Web Development and built a few projects for learning. I like to participate in various challanges and hackathons.I am also an Open Source Project Contributor in some organisations. I am a regular contributor in the organisation AnitaB.Org and also test some of Pull Requests. I am a regular competitive programmer and practice on various platforms like leetcode, codechef, Codeforces, etc.
+            I am a sophomore student pursuing B.Tech in Computer Science and Engineering from <u> Harcourt Butler Technical University</u>. I have a keen interest in Web Development and built a few projects for learning. I like to participate in various challanges and hackathons.I am also an Open Source Project Contributor in some organisations. I am a regular contributor in the organisation AnitaB.Org and also test some of Pull Requests. I have even few contributions in Creative commons as Well.
+            
+            With consistency and persistency currently I am Mentor in OSH(Open source hack), a program conducted by AnitaB for beginners. One of my project was also selected in Girlscript Summer of Code(GSSoC) where I am Project Admin and Mentor of my project Periodo. Luckily I have also been selected as an Outreachy Participant. I am a regular competitive programmer and practice on various platforms like leetcode, codechef, Codeforces, etc.
           </p>
           {close}
         </article>
@@ -72,18 +74,18 @@ class Main extends React.Component {
           </span>
           <p>
           <p>
+            <h4><a href="https://github.com/Feminine-Divine/periodo">Periodo</a></h4>
+            <p>website: <a href="https://periodoo.vercel.app/">Periodo</a></p>
+            Periodo - The Tracker focuses on young girls who are going to experience their first periods and the women who face problems tracking their period dates and remembering their dates be it for avoiding embarrassing moments or to monitor your period for lifestyle disorders(PCOS, PCOD, etc.).
+          </p>
+          <p>
             <h4><a href="https://github.com/khushishikhu/Boardgame">Jigdise</a></h4>
-            <p>website:<a href="https://jigdise.vercel.app/">Jigdise</a></p>
+            <p>website: <a href="https://jigdise.vercel.app/">Jigdise</a></p>
             This is a multiplayer board game app which is a virtual verion of English Poker game Yahtzee.
           </p>
             <h4><a href="https://github.com/khushishikhu/worldranks">World Ranks</a></h4>
-            <p>website:<a href="https://worldranks.khushishikhu.vercel.app/">World Ranks</a></p>
+            <p>website: <a href="https://worldranks.khushishikhu.vercel.app/">World Ranks</a></p>
             This project is based on world ranks.
-          </p>
-          <p>
-            <h4><a href="https://github.com/khushishikhu/periodo">Periodo</a></h4>
-            <p>website:<a href="https://periodo.khushishikhu.vercel.app/">Periodo</a></p>
-            It's a period tracking web app for the young girls.
           </p>
           <p>
             <h4><a href="https://github.com/khushishikhu/worldranks">Img-Square</a></h4>
