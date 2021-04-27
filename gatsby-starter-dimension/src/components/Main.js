@@ -75,7 +75,7 @@ class Main extends React.Component {
           <p>
           <p>
             <h4><a href="https://github.com/Feminine-Divine/periodo">Periodo</a></h4>
-            <p>website: <a href="https://periodoo.vercel.app/">Periodo</a></p>
+            <p>website: <a href="https://periodo-feminine-divine.vercel.app/">Periodo</a></p>
             Periodo - The Tracker focuses on young girls who are going to experience their first periods and the women who face problems tracking their period dates and remembering their dates be it for avoiding embarrassing moments or to monitor your period for lifestyle disorders(PCOS, PCOD, etc.).
           </p>
           <p>
