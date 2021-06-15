@@ -74,9 +74,14 @@ class Main extends React.Component {
           </span>
           <p>
           <p>
-            <h4><a href="https://github.com/Feminine-Divine/periodoPeriodo</a></h4>
-            <p>website: <a href="https://periodo-three.vercel.app/">Periodo</a></p>
+            <h4><a href="https://periodo-mocha.vercel.app/">Periodo</a></h4>
+            <p>website: <a href="https://periodo-mocha.vercel.app/">Periodo</a></p>
             Periodo - The Tracker focuses on young girls who are going to experience their first periods and the women who face problems tracking their period dates and remembering their dates be it for avoiding embarrassing moments or to monitor your period for lifestyle disorders(PCOS, PCOD, etc.).
+          </p>
+          <p>
+            <h4><a href="https://github.com/Feminine-Divine/Woodog">Woodog</a></h4>
+            <p>website: <a href="https://github.com/Feminine-Divine/Woodog">Woodog</a></p>
+            Woodog🐶 is an initiative to provide help to increasing stray animals by providing them food 🍞 and refuge 🏠 by connecting them with fellow helpful humans. On the application, two types of people can be registered 📥 one who can provide the location and condition of a nearby stray, and another who can provide information and arrange shelter 🏠 and food 🍞 for them.
           </p>
           <p>
             <h4><a href="https://github.com/khushishikhu/Boardgame">Jigdise</a></h4>
