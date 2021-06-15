@@ -40,6 +40,24 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
+        
+        <article
+          id="organization"
+          className={`${this.props.article === 'organization' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Organizations</h2>
+          <span className="image main">
+          
+          </span>
+          <p>
+        
+
+          </p>
+          {close}
+        </article>
 
         <article
           id="cp"
