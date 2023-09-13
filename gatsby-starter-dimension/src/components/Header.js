@@ -9,9 +9,9 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>Hii,It's Khushi Gautam</h1>
-        <h4>Outreachy Applicant || Co-Founder @Feminine-Divine || Project Admin and Mentor @GSSoC || OSH Mentor @AnitaB.org </h4>
+        <h4>Ex-SDE Intern @Samsung SDS || GDSC open source lead || Project Admin and Mentor @GSSoC || OSH Mentor @AnitaB.org </h4>
         <p>
-           I am a sophomore student and a Full-Stack Web Developer
+        
         </p>
       </div>
     </div>
